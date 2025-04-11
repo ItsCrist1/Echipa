@@ -1,0 +1,13 @@
+Cerinte:
+
+Sa se citeasca datele pentru fiecare dintre cele n echipe dintr-un fisier.
+
+Sa se scrie o functie care primeste ca param. o echipa si afiseaza toti jucatorii ei.
+
+Sa se scrie o functie care afiseaza echipele in ordinea clasamentului.
+
+Sa se scrie o functie care primeste ca param. o echipa si un numar intreg x. Functia elimina toti jucatorii care au mai putin de x goluri.
+
+Sa se scrie o functie care sa afiseze tara cu cei mai multi jucatori in toate cele n echipe.
+
+Sa se scrie o functie care afiseaza numele golgheterului campionatului (cele mai multe goluri). Daca sunt mai multi sa se afiseze in ordine alfabetica. Gigel -5 Ionel -5 Zidan-5
