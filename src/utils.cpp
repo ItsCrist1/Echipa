@@ -3,6 +3,34 @@
 #include <iostream>
 #include <vector>
 
+std::wstring getCountryWstr(const Nationality nationality) {
+    switch(nationality) {
+        case Nationality::AR: return L"Argentina";
+        case Nationality::AU: return L"Australia";
+        case Nationality::BR: return L"Brazil";
+        case Nationality::CA: return L"Canada";
+        case Nationality::CN: return L"China";
+        case Nationality::DE: return L"Germany";
+        case Nationality::EG: return L"Egypt";
+        case Nationality::ES: return L"Spain";
+        case Nationality::FR: return L"France";
+        case Nationality::GB: return L"Great Britain";
+        case Nationality::IT: return L"Italy";
+        case Nationality::JP: return L"Japan";
+        case Nationality::KR: return L"South Korea";
+        case Nationality::MX: return L"Mexico";
+        case Nationality::NL: return L"Netherlands";
+        case Nationality::PL: return L"Poland";
+        case Nationality::PT: return L"Portugal";
+        case Nationality::RO: return L"Romania";
+        case Nationality::RU: return L"Russia";
+        case Nationality::SE: return L"Sweden";
+        case Nationality::US: return L"United States";
+        
+        default: return L"Unknown";
+    }
+}
+
 #ifdef _WIN32
 #include <windows.h>
 #include <conio.h>

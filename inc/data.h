@@ -1,6 +1,7 @@
 #pragma once
 #include "utils.h"
 #include <vector>
+#include <array>
 
 struct Player {
     std::wstring name;

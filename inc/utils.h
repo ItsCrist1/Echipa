@@ -14,6 +14,8 @@ using u32 = uint32_t;
 using i32 = int32_t;
 using u8 = uint8_t;
 
+static const u32 NATIONALITY_SIZE = 21;
+
 enum class Nationality {
     AR, AU, BR, CA, CN,
     DE, EG, ES, FR, GB,
@@ -21,6 +23,8 @@ enum class Nationality {
     PL, PT, RO, RU, SE,
     US
 };
+
+std::wstring getCountryWstr(const Nationality);
 
 #ifndef _WIN32
 void cleanup(i32);

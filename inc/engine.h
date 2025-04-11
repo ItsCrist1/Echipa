@@ -47,15 +47,15 @@ static const std::vector<Team> DefaultTeams {
     )
 };
 
-class Engine {
+struct Engine {
     const Serializer serializer;
-
     std::vector<Team> teams;
-public:
+
     Engine(const std::string&);
 
     void ShowPlayers(const Team&) const;
     void ShowTop() const;
-    void EliminateLessThan(Team&, const u32);
+    u32 EliminateLessThan(Team&, const u32);
     Nationality GetCountryWithMostPlayers() const;
+    std::vector<Player> GetMostGoals() const;
 };
